@@ -1,0 +1,22 @@
+public class Types {
+    public static void main(String[] args){
+        byte bt = 10;
+        short s = 2404;
+        int i = 123456;
+        long l = 1500L; // Для объявления long в конце ставится буква L
+        float f = 120.0f; //  Для объявления float в конце ставится буква f
+        double d = 15.72775;
+        boolean bool = true;
+        char c = 'A';
+        
+        System.out.println("Значение для типа byte = " + bt);
+        System.out.println("Значение для типа char = [" + c + "]");
+        System.out.println("Значение для типа short = " + s);
+        System.out.println("Значение для типа int = " + i);
+        System.out.println("Значение для типа long = " + l);
+        System.out.println("Значение для типа float = " + f);
+        System.out.println("Значение для типа double = " + d);
+        System.out.println("Значение для типа boolean = " + bool);
+
+    }
+}
